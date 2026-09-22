@@ -30,6 +30,16 @@ cp -r options-paper-skill-claude/options-paper/ your-project/.claude/skills/opti
 
 Claude will pick it up automatically from `available_skills` next time you start a session.
 
+## Example prompt
+
+Once installed, just ask Claude something like:
+
+> "Can you write an options paper on how we should handle corporate sponsorship — I want 3 solid options plus one more ambitious one?"
+
+or
+
+> "Give me 4 options for restructuring our volunteer programme, with a comparison table."
+
 ## Producing the Word document
 
 The skill drafts the content, then hands it to the bundled `scripts/build_options_paper.py` to
