@@ -72,6 +72,10 @@ options-paper-skill-claude/
 └── LICENSE
 ```
 
+## Using this with another AI assistant
+
+Nothing here is Claude-specific — `options-paper/SKILL.md` is a plain instruction file. To use it with ChatGPT or another AI assistant, give it this repo's URL (or paste in `SKILL.md`) and ask it to set itself up and draft your options paper. It's a one-shot request, not a scheduled task: the assistant drafts the content directly, and only needs to run `scripts/build_options_paper.py` if you also want the branded `.docx` output — so pick an assistant that can execute Python (e.g. ChatGPT's code interpreter/Advanced Data Analysis) for that last step, or run the script yourself against the drafted content and your own template.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) — note this repo isn't actively maintained, so response times on issues and PRs will be slow to nonexistent.
